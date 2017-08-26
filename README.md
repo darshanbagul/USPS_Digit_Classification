@@ -9,6 +9,15 @@ This project introduces us to a major topic in Supervised Machine Learning, whic
     
 While solving the problem of Handwriting Recognition, we shall encounter the **NO FREE LUNCH THEOREM**. Our objective is to verify that this theorem holds even in this case, as we shall see in this implementation.
 
+## Requirements
+
+```
+  tensorflow==1.0.1
+  matplotlib==1.5.1
+  cv2==2.4.13
+  numpy==1.13.0
+  cPickle==1.71
+```
 ## Dataset
 
 1. We have been provided with the MNIST handwritten digits dataset, which consists of 70000 grayscale images, representing 10 digits - 0 to 9. The images are each of 28 x 28 pixel resolution.
